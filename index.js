@@ -5,12 +5,12 @@ function kittens(name){
 }
 
 function destructivelyAppendKitten(name) {
-  kittens.push('Ralph');
+  kittens.push(name);
   return kittens;
 }
 
 function destructivelyPrependKitten(name) {
-  kittens.unshift("Bob");
+  kittens.unshift();
   return kittens;
 }
 
