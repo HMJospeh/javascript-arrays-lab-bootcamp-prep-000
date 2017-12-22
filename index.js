@@ -37,7 +37,6 @@ kittens.slice(3);
   return kittens;
 }
 
-function removeFirstKitten() {
-  kittens.slice(1);
-  return kittens;
+function removeFirstKitten(name) {
+  return kittens.slice(1);
 }
