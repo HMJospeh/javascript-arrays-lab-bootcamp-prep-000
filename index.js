@@ -36,6 +36,6 @@ function destructivelyRemoveFirstKitten(name) {
 kittens("milo","Otis","Garfield");
 
 function appendKitten(name) {
-appendKitten("Broom");
-  return appendKitten;
+Kitten("Broom");
+return Kitten;
 }
